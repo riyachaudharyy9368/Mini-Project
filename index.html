@@ -1,0 +1,183 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CaféHop | Find Your Coffee Corner</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="cafes.js" defer></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body data-page="home">
+
+    <div class="announcement">
+        YOUR NEXT COFFEE SPOT IS JUST A HOP AWAY ✳
+    </div>
+
+    <header class="site-header">
+
+        <a class="logo" href="index.html">
+            café<span>hop.</span>
+        </a>
+
+        <button class="menu-toggle" aria-label="Open navigation">☰</button>
+
+        <nav class="main-nav">
+            <a class="active" href="index.html">Home</a>
+            <a href="explore.html">Explore Cafés</a>
+            <a href="favourites.html">Favourites</a>
+            <a href="about.html">About</a>
+        </nav>
+
+        <a class="nav-cta" href="explore.html">
+            Find a café ↗
+        </a>
+
+    </header>
+
+    <main>
+
+        <section class="hero">
+
+            <div class="hero-copy">
+
+                <p class="eyebrow">THE NCR CAFÉ EDIT</p>
+
+                <h1>
+                    Find your<br>
+                    <em>kind</em> of coffee<br>
+                    corner.
+                </h1>
+
+                <p class="hero-description">
+                    From slow mornings in Ghaziabad to pretty little
+                    corners in Delhi — discover places worth stepping
+                    out for.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="explore.html" class="button button-dark">
+                        Explore cafés ↗
+                    </a>
+
+                    <a href="#featured" class="text-link">
+                        The shortlist ↓
+                    </a>
+                </div>
+
+                <div class="hero-note">
+                    ✳ GOOD COFFEE. GOOD COMPANY.
+                </div>
+
+            </div>
+
+            <div class="hero-visual">
+                <div class="hero-image"></div>
+                <div class="image-stamp">
+                    THE<br>COFFEE<br>CHAPTER ✳
+                </div>
+            </div>
+
+        </section>
+
+        <section class="ticker">
+            GOOD DAYS START WITH COFFEE ✳
+            FIND YOUR NEW FAVOURITE ✳
+            TAKE THE SCENIC ROUTE ✳
+        </section>
+
+        <section class="section" id="featured">
+
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">THE FIRST POUR</p>
+                    <h2>On our <em>radar.</em></h2>
+                </div>
+
+                <a href="explore.html" class="text-link">
+                    View all cafés ↗
+                </a>
+            </div>
+
+            <div class="cafe-grid" id="featured-grid"></div>
+
+        </section>
+
+        <section class="category-band">
+
+            <div class="category-intro">
+                <p class="eyebrow">WHAT'S YOUR MOOD?</p>
+                <h2>Pick your<br><em>kind of place.</em></h2>
+            </div>
+
+            <a href="explore.html?category=Aesthetic"
+               class="category-tile tile-aesthetic">
+                <span>01 / THE PRETTY ONES</span>
+                <strong>Aesthetic<br>cafés</strong>
+                <b>↗</b>
+            </a>
+
+            <a href="explore.html?category=Study-friendly"
+               class="category-tile tile-study">
+                <span>02 / THE FOCUS ZONE</span>
+                <strong>Study-friendly<br>cafés</strong>
+                <b>↗</b>
+            </a>
+
+            <a href="explore.html?category=Hangout"
+               class="category-tile tile-hangout">
+                <span>03 / THE CATCH-UPS</span>
+                <strong>Hangout<br>cafés</strong>
+                <b>↗</b>
+            </a>
+
+            <a href="explore.html?category=Coffee%20%26%20dessert"
+               class="category-tile tile-dessert">
+                <span>04 / A LITTLE TREAT</span>
+                <strong>Coffee &<br>dessert spots</strong>
+                <b>↗</b>
+            </a>
+
+        </section>
+
+        <section class="city-strip">
+            <div>
+                <p class="eyebrow">START CLOSE TO HOME</p>
+                <h2>Ghaziabad first.<br><em>Delhi next.</em></h2>
+            </div>
+
+            <p>
+                Local favourites, new discoveries and little places
+                that make an ordinary day feel like an occasion.
+            </p>
+
+            <a href="explore.html" class="button button-outline">
+                Explore the edit ↗
+            </a>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-top">
+            <a class="logo logo-light" href="index.html">
+                café<span>hop.</span>
+            </a>
+
+            <p>A little guide to your next favourite corner.</p>
+        </div>
+
+        <div class="footer-bottom">
+            <span>© 2026 CAFÉHOP · STUDENT PROJECT</span>
+            <span>MADE WITH ☕ IN NCR</span>
+        </div>
+    </footer>
+
+</body>
+</html>

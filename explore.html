@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Cafés | CaféHop</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="cafes.js" defer></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body data-page="explore">
+
+    <div class="announcement">YOUR NEXT COFFEE SPOT IS JUST A HOP AWAY ✳</div>
+
+    <header class="site-header">
+        <a class="logo" href="index.html">café<span>hop.</span></a>
+
+        <button class="menu-toggle">☰</button>
+
+        <nav class="main-nav">
+            <a href="index.html">Home</a>
+            <a class="active" href="explore.html">Explore Cafés</a>
+            <a href="favourites.html">Favourites</a>
+            <a href="about.html">About</a>
+        </nav>
+
+        <a class="nav-cta" href="favourites.html">Your shortlist ↗</a>
+    </header>
+
+    <main class="page-main">
+
+        <section class="page-hero">
+            <p class="eyebrow">THE CAFÉ DIRECTORY · NCR</p>
+
+            <h1>Places to sip,<br><em>stay & savour.</em></h1>
+
+            <p>
+                A growing little directory of cafés around
+                Ghaziabad and Delhi.
+            </p>
+        </section>
+
+        <section class="explore-tools">
+
+            <label class="search-box">
+                <span>⌕</span>
+                <input
+                    type="search"
+                    id="cafe-search"
+                    placeholder="Search by café or area..."
+                >
+            </label>
+
+            <div class="filter-row" id="category-filters">
+                <button class="filter-chip active" data-category="All">
+                    All cafés
+                </button>
+
+                <button class="filter-chip" data-category="Aesthetic">
+                    Aesthetic
+                </button>
+
+                <button class="filter-chip" data-category="Study-friendly">
+                    Study-friendly
+                </button>
+
+                <button class="filter-chip" data-category="Hangout">
+                    Hangout
+                </button>
+
+                <button class="filter-chip" data-category="Coffee & dessert">
+                    Coffee & dessert
+                </button>
+            </div>
+
+            <div class="results-meta">
+                <span id="results-count">Showing cafés</span>
+                <span>GHAZIABAD → DELHI NCR</span>
+            </div>
+
+        </section>
+
+        <section class="cafe-grid explore-grid" id="all-cafes-grid"></section>
+
+        <div class="empty-state hidden" id="empty-state">
+            <h2>No cafés found.</h2>
+            <p>Try another name, area or category.</p>
+            <button class="button button-dark" id="clear-filters">
+                Clear filters
+            </button>
+        </div>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-top">
+            <a class="logo logo-light" href="index.html">café<span>hop.</span></a>
+            <p>A little guide to your next favourite corner.</p>
+        </div>
+
+        <div class="footer-bottom">
+            <span>© 2026 CAFÉHOP · STUDENT PROJECT</span>
+            <span>MADE WITH ☕ IN NCR</span>
+        </div>
+    </footer>
+
+</body>
+</html>

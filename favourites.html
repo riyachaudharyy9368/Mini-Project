@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favourites | CaféHop</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="cafes.js" defer></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body data-page="favourites">
+
+    <div class="announcement">YOUR NEXT COFFEE SPOT IS JUST A HOP AWAY ✳</div>
+
+    <header class="site-header">
+        <a class="logo" href="index.html">café<span>hop.</span></a>
+
+        <button class="menu-toggle">☰</button>
+
+        <nav class="main-nav">
+            <a href="index.html">Home</a>
+            <a href="explore.html">Explore Cafés</a>
+            <a class="active" href="favourites.html">Favourites</a>
+            <a href="about.html">About</a>
+        </nav>
+
+        <a class="nav-cta" href="explore.html">Find more ↗</a>
+    </header>
+
+    <main class="page-main">
+
+        <section class="page-hero">
+            <p class="eyebrow">YOUR LITTLE BLACK BOOK</p>
+            <h1>Saved with<br><em>love.</em></h1>
+            <p>All the coffee corners you want to come back to.</p>
+        </section>
+
+        <section class="cafe-grid explore-grid" id="favourites-grid"></section>
+
+        <div class="empty-state hidden" id="favourites-empty">
+            <h2>Your list is waiting. ♡</h2>
+            <p>Tap the heart on a café card and it will show up here.</p>
+            <a href="explore.html" class="button button-dark">
+                Discover cafés ↗
+            </a>
+        </div>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-top">
+            <a class="logo logo-light" href="index.html">café<span>hop.</span></a>
+            <p>A little guide to your next favourite corner.</p>
+        </div>
+
+        <div class="footer-bottom">
+            <span>© 2026 CAFÉHOP · STUDENT PROJECT</span>
+            <span>MADE WITH ☕ IN NCR</span>
+        </div>
+    </footer>
+
+</body>
+</html>
